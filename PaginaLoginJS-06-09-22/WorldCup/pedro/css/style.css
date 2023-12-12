@@ -1,0 +1,43 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right,rgb(12, 141, 0), rgb(255, 238, 0));
+}
+.titulo{
+    text-align: center;
+}
+.meio{
+    margin-top: 25px;
+    display: flex;
+    margin: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.meio h3{
+    max-width: 300px;
+}
+.meio img{
+    max-width: 500px;
+    border-radius: 5px;
+}
+.imgs_pag{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imgs_pag img{
+    
+    max-width: 670px;
+    border-radius: 5px;
+
+}
+
+#pos{
+    max-width: 800px;
+    border-radius: 5px;
+}

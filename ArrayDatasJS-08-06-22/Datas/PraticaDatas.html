@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language=javascript type="text/javascript">
+        dayName = new Array ("Domingo", "Segunda", "Terca", "quarta", "quinta", "sexta", "sabado");
+        monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro");
+        now = new Date;
+    </script>
+</head>
+<body>
+    <script language=javascript type="text/javascript">
+        document.write ("<h1> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </h1>");
+    </script>
+</body>
+</html>

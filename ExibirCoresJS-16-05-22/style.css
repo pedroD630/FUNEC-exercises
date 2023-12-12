@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.cores{
+    display: inline-flex;
+    
+}
+.verde, .vermelho, .azul, .amarelo{
+    height: 100px;
+    width: 100px;
+    visibility: hidden;
+    position: absolute;
+}
+.verde{
+    background-color: green;
+    
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.amarelo{
+    background-color: yellow;
+}
